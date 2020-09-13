@@ -1,0 +1,29 @@
+body{
+  font-family: sans-serif;
+  width:1200px;
+  margin:30px;
+}
+
+form{
+  width: 50%;
+}
+
+#uid, #email, #name ,#age, #phone_number, #country{
+  border-radius: 30px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  padding:10px;
+  width:350px;
+}
+
+#enter:hover,#sortbyname:hover,#sortbyage:hover,#sortbyemail:hover,#empty:hover {
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color:#e9e9e9;
+}
+#enter:active{
+	position:relative;
+	top:1px;
+}
+
+
